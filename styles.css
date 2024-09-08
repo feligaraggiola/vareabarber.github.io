@@ -54,12 +54,12 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    gap: 10px;
     padding: 5px;
 }
 
 .cuts-gallery img {
-    width: 150%;
+    width: 1000%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
