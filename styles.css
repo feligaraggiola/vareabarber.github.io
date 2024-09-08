@@ -60,6 +60,7 @@ section h2 {
 
 .cuts-gallery img {
     width: 130%;
+    max-width: 250px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
