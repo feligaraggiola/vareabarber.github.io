@@ -59,7 +59,7 @@ section h2 {
 }
 
 .cuts-gallery img {
-    width: 200%;
+    width: 15%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -84,8 +84,8 @@ section h2 {
 }
 
 .service-item img {
-    width: 150%;
-    max-width: 150px; /* Ajusta este valor según el tamaño que desees */
+    width: 20%;
+    max-width: 250px; /* Ajusta este valor según el tamaño que desees */
     height: auto;
     border-radius: 10px;
     
