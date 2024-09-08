@@ -84,7 +84,7 @@ section h2 {
 }
 
 .service-item img {
-    width: 200%;
+    width: 150%;
     max-width: 250px; /* Ajusta este valor según el tamaño que desees */
     height: auto;
     border-radius: 10px;
