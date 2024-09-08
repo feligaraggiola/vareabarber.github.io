@@ -54,15 +54,15 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 100px;
     padding: 5px;
 }
 
 .cuts-gallery img {
-    width: 1000%;
+    width: 200%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .services-gallery {
