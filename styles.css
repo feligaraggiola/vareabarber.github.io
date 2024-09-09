@@ -68,10 +68,10 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .cuts-gallery img {
-    width: 15%;
+     width: 150%;
+    max-width: 250px; /* Ajusta este valor según el tamaño que desees */
     height: auto;
     border-radius: 10px;
-    margin-bottom: 15px;
 }
 
 .services-gallery {
