@@ -59,7 +59,7 @@ section h2 {
 }
 
 .haircut-gallery img {
-    width: 25%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -75,10 +75,11 @@ section h2 {
 }
 
 .service-gallery img {
-    width: 25%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
+    gap: 15px;
 }
 
 
