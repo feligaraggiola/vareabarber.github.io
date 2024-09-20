@@ -5,20 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varea Barber</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <h1>💈Varea Barber💈</h1>
+    <header class="hero">
+         <!-- Menu Section -->
+        <nav class="nav container" id="nav">
+            <h2 class="nav__logo">💈Varea Barber💈</h2>
+
+            <ul class="nav__links">
+
+                <li class="nav__item">
+                    <a href="https://www.instagram.com/vareabarber/" class="nav__link">instagram</a>
+                </li>
+                <li class="nav__item">
+                    <a href="https://maps.app.goo.gl/jgGAyyQ5NmUtyM5F7" class="nav__link">ubicacion</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">turnos</a>
+                </li>
+
+            </ul>
+
+            <a href="#nav" class="nav__hamburguer">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__close">
+                <img src="./assets/close.svg" class="nav__icon">
+            </a>
+
+        </nav>
     </header>
 
-    <!-- Menu Section -->
-    <nav>
-        <ul>
-            <li><a href="https://maps.app.goo.gl/jgGAyyQ5NmUtyM5F7">Ubicación</a></li>
-            <li><a href="#contact">Turnos</a></li>
-            <li><a href="https://www.instagram.com/vareabarber/" target="_blank">Instagram</a></li>
-        </ul>
-    </nav>
+   
+    
 
     <!-- Cortes Más Pedidos Section -->
     <section id="popular-cuts">
@@ -54,6 +79,7 @@
     </div>
 </section>
     
+   
 
     <footer>
         <p>&copy; 2024 Varea Barber. Todos los derechos reservados.</p>
