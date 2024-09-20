@@ -25,6 +25,39 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+/* Responsive Design */
+@media (min-width:768px) {
+    .nav{
+        --state-hamburguer:scale(0);
+        --state-menu: translate(0);
+    }
+    
+    .nav:target{
+        --state-close: scale(0);
+    }
+
+    .nav__links{
+        padding: 0;
+        background-color: unset;
+        position: unset;
+        gap: 1.5em;
+        grid-auto-flow: column;
+    
+        transform: unset;
+
+        grid-column: -2/-1;
+        grid-row: 1/2;
+    }
+
+    .nav__link{
+        font-size: 1rem;
+        letter-spacing: none;
+    }
+}
+
+
+
 .container{
     margin: 0 auto;
     width: 90%;
@@ -180,32 +213,3 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
-@media (min-width:768px) {
-    .nav{
-        --state-hamburguer:scale(0);
-        --state-menu: translate(0);
-    }
-    
-    .nav:target{
-        --state-close: scale(0);
-    }
-
-    .nav__links{
-        padding: 0;
-        background-color: unset;
-        position: unset;
-        gap: 1.5em;
-        grid-auto-flow: column;
-    
-        transform: unset;
-
-        grid-column: -2/-1;
-        grid-row: 1/2;
-    }
-
-    .nav__link{
-        font-size: 1rem;
-        letter-spacing: none;
-    }
-}
