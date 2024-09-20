@@ -31,7 +31,15 @@ h1 {
     max-width: 1200px;
     overflow: hidden;
 }
-
+.hero{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+    url('background\ varea.jpeg');
+    background-size: cover;
+    min-height: 500px;
+    height: 100vh;
+    color: #fff;
+}
 .nav{
     --state-close: scale(0);
     --state-hamburguer:scale(1);
