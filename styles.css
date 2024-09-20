@@ -34,7 +34,7 @@ h1 {
 .hero{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-    url('background\ varea.jpeg');
+    url('assets/hero.jpg');
     background-size: cover;
     min-height: 500px;
     height: 100vh;
